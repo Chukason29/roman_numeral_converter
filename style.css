@@ -43,7 +43,19 @@ label{
     cursor: pointer;
 }
 #output{
-    border: 1px solid red;
+    display: none;
+}
+.error{
+    border: 1px solid rgb(255, 0, 140);
+    background-color: rgba(255, 0, 170, 0.5);
+    color: rgb(255, 0, 140);
+    font-size: 2rem;
+    padding: 7px;
+}
+.success{
+    border: 1px solid rgb(0, 128, 64);
+    background-color: rgb(109, 248, 179);
+    color: rgb(0, 128, 64);;
     font-size: 2rem;
     padding: 7px;
 }
